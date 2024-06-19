@@ -17,7 +17,7 @@ class User(db.Model):
 
 @app.route('/')
 def index():
-    return "Welcome to the Flask application!"
+    return "Welcome! This Project is Hosted by Gifted Tech as a base for Another Project!"
 
 @app.route('/register', methods=['POST'])
 def register():
